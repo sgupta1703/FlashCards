@@ -24,7 +24,7 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-* [ ] Flipping animation whenever card is clicked
+* [x] Flipping animation whenever card is clicked
 
 ## Video Walkthrough
 
@@ -41,11 +41,12 @@ GIF created with ...
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+One challenge was shuffling the cards properly while maintaining consistent state updates for navigation. Additionally, ensuring the UI was well-centered and responsive across different screen sizes required careful CSS adjustments.
+
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2025] [Sarthak Gupta]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
