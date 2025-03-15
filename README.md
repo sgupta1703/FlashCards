@@ -1,8 +1,8 @@
-# Web Development Project 2 - *CS FlashCards*
+# Web Development Project 3 - *CS FlashCards*
 
 Submitted by: **Sarthak Gupta**
 
-This web app: **has CS flashcards for you to study**
+This web app: **helps you study for React and JS through FlashCards**
 
 Time spent: **3** hours spent in total
 
@@ -10,30 +10,32 @@ Time spent: **3** hours spent in total
 
 The following **required** functionality is completed:
 
-- [x] **The title of the card set and some information about it, such as a short description and the total number of cards are displayed**
-- [x] **A single card at a time is displayed, only showing one of the components of the information pair**
-- [x] **A list of card pairs is created**
-- [x] **Clicking on the card shows the corresponding component of the information pair**
-- [x] **Clicking the next button displays a random new card**
+- [x] **The user can enter their guess in a box before seeing the flipside of the card**
+- [x] **Clicking on a submit button shows visual feedback about whether the answer was correct or incorrect**
+- [x] **A back button is displayed on the card and can be used to return to the previous card in a set sequence**
+- [x] **A next button is displayed on the card and can be used to navigate to the next card in a set sequence**
 
 The following **optional** features are implemented:
 
-- [ ] Cards contains images in addition to or in place of text
-- [ ] Cards have different visual styles such as color based on their category
-  - [ ] *visual style implemented*
+- [ ] A shuffle button is used to randomize the order of the cards
+- [x] A user's answer may be counted as correct even when it is slightly different from the target answer
+- [x] A counter displays the user's current and longest streak of correct responses
+- [ ] A user can mark a card that they have mastered and have it removed from the pool of answers as well as added to a list of mastered cards
 
 The following **additional** features are implemented:
 
-* [x] Flipping animation whenever card is clicked
+* [x] Cannot click submit button when the answer is showing
 
 ## Video Walkthrough
 
-Here's a walkthrough of implemented required features:
+Here's a walkthrough of implemented user stories:
 
 <img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
+
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  
+[Imgur](https://imgur.com/a/aJzXjoT)
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
@@ -41,12 +43,11 @@ GIF created with ...
 
 ## Notes
 
-One challenge was shuffling the cards properly while maintaining consistent state updates for navigation. Additionally, ensuring the UI was well-centered and responsive across different screen sizes required careful CSS adjustments.
-
+I had a hard time implementing fuzzy matching.
 
 ## License
 
-    Copyright [2025] [Sarthak Gupta]
+    Copyright [yyyy] [name of copyright owner]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
